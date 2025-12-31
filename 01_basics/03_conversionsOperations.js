@@ -62,5 +62,5 @@ gameCounter++;
 console.log(gameCounter);
 
 // link to study prefix(++x) and postfix (x++)
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
 
