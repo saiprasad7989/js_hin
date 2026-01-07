@@ -12,8 +12,8 @@ const user = {
 }
 
 
-user.welcomeMessage()
-user.username = "amar"
-user.welcomeMessage()   
+// user.welcomeMessage()
+// user.username = "amar"
+// user.welcomeMessage()   
 
-// console.log(this);
+console.log(this);
