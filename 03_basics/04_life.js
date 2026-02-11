@@ -9,3 +9,8 @@
     console.log(`TWO DB CONNECTED`);
     
 }) ();
+
+((name) => {
+    console.log(`${name}`);
+    
+}) ('sai');
