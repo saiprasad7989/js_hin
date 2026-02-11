@@ -16,7 +16,18 @@ const user = {
 // user.username = "sam"
 // user.WelcomeMessage()
 
-console.log(this);
+// console.log(this);
+
+function chai(){
+    let username = "sai"
+    console.log(this.username);
+    
+}
+
+chai()
+
+
+
  
 
 
