@@ -8,7 +8,7 @@
 
 (() => {
     console.log(`TWO DB CONNECTED`);
-    
+    // unnamed IIFE
 }) ();
 
 ((name) => {
