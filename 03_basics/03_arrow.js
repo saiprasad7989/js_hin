@@ -18,17 +18,29 @@ const user = {
 
 // console.log(this);
 
-function chai(){
-    let username = "sai"
-    console.log(this.username);
+// function chai(){
+//     let username = "sai"
+//     console.log(this.username);
     
+// }
+
+// chai()
+
+
+// const chai = function() {
+//      let username = "sai"
+//      console.log(this.username);
+
+// }
+
+
+const chai = () => {
+     let username = "sai"
+     console.log(this.username);
+
 }
-
-chai()
-
-
-
  
+chai()
 
 
   
