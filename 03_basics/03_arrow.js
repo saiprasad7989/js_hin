@@ -12,11 +12,11 @@ const user = {
     }
 }
 
-user.WelcomeMessage()
-user.username = "sam"
-user.WelcomeMessage()
+// user.WelcomeMessage()
+// user.username = "sam"
+// user.WelcomeMessage()
 
-// console.log();
+console.log(this);
  
 
 
