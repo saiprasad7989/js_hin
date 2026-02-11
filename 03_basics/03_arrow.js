@@ -1,25 +1,26 @@
 const user = {
-    username: "sai",
-    price: 999,
+    username : "sai prasad",
+    RollNumber : 705,
 
-    welcomeMessage: function(){
-        console.log(`${this.username}, welcome to website`);
-        console.log(this);
+    WelcomeMessage : function(){
+        console.log(`hi ${this.username}, welcome to the world! `);
+        // console.log(this);
         
-        
+
+
+
     }
-    
 }
 
+user.WelcomeMessage()
+// user.username = "sam"
+// user.WelcomeMessage()
 
-// user.welcomeMessage()
-// user.username = "amar"
-// user.welcomeMessage()   
+// console.log();
 
-// console.log(this);
-function chai(){
-    console.log(this);
-    
-}
 
-chai()
+
+  
+
+
+
