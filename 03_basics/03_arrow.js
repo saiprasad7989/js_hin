@@ -4,7 +4,7 @@ const user = {
 
     WelcomeMessage : function(){
         console.log(`hi ${this.username}, welcome to the world! `);
-        // console.log(this);
+        console.log(this);
         
 
 
@@ -13,8 +13,8 @@ const user = {
 }
 
 user.WelcomeMessage()
-// user.username = "sam"
-// user.WelcomeMessage()
+user.username = "sam"
+user.WelcomeMessage()
 
 // console.log();
 
