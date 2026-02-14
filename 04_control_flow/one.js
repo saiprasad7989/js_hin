@@ -1,3 +1,5 @@
 //if
 
-if (condition)
+if (true){
+    
+}
