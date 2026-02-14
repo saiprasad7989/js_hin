@@ -22,12 +22,16 @@ const temp = 41
 
 // < - less than, > - greaterthan, <= - lessthan or equal, >= Greaterthan or equal, == - eual, != - not equal, === = type.
 
-const score = 200
+// const score = 200
 
-if (score > 100) {
-    var power = "fly"
-    console.log(`user power : ${power}`);
+// if (score > 100) {
+//     const power = "fly"
+//     console.log(`user power : ${power}`);
     
-}
+// }
 
-console.log(`user power : ${power}`);
+// console.log(`user power : ${power}`);
+
+const balance = 1000
+
+if (balance > 500) console.log("test");
