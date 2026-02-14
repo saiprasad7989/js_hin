@@ -30,4 +30,4 @@ if (score > 100) {
     
 }
 
-// console.log(`user power : ${power}`);
+console.log(`user power : ${power}`);
