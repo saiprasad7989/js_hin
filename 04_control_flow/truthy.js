@@ -15,3 +15,17 @@ if (userEmail){
 
 // truthy values
 // "0", "false", " ", [], {}, function(){}
+
+// if (userEmail.length === 0) {
+//     console.log("Array is empty");
+    
+// }
+
+const empptyObj = {}
+
+if (Object.keys(empptyObj).length === 0){
+    console.log("object is empty");
+    
+}
+
+// nulish coalescing operator (??) : null undefined
