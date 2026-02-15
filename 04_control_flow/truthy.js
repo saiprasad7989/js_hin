@@ -28,4 +28,4 @@ if (Object.keys(empptyObj).length === 0){
     
 }
 
-// nulish coalescing operator (??) : null undefined
+//  nulish coalescing operator (??) : null undefined
