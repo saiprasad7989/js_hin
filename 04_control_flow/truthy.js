@@ -29,3 +29,7 @@ if (Object.keys(empptyObj).length === 0){
 }
 
 //  nulish coalescing operator (??) : null undefined
+
+let val1;
+val1 = 5??10
+console.log(val1);
