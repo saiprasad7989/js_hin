@@ -31,5 +31,17 @@ if (Object.keys(empptyObj).length === 0){
 //  nulish coalescing operator (??) : null undefined
 
 let val1;
-val1 = 5??10
+// val1 = 5??10
+// console.log(val1);
+// val1 = null ?? 10
+// val1 = undefined ?? 54 ?? 23
+val1 = null ?? 54 ?? 23
 console.log(val1);
+ 
+// terniary operator
+// condition? true : false
+
+const iceteaPrice = 100
+iceteaPrice >= 80 ? console.log("less than 80") : console.log("greater than 80");
+
+
