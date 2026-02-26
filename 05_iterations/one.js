@@ -38,7 +38,7 @@ for (let index = 0; index < myArray.length; index++) {
 for (let index = 1; index < 40; index++) {
     if (index == 5) {
         console.log(`ditected 5`);
-        break;
+        continue
 
         
     }
