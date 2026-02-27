@@ -1,21 +1,27 @@
 // for of
 
 // ["","",""]
-// [{},{},{}]
+// // [{},{},{}]
 
-const arr = [1,2,3,4,5]
+// const arr = [1,2,3,4,5]
 
-for (const num of arr) {
-    console.log(num);
+// for (const num of arr) {
+//     console.log(num);
     
-}
+// }
 
-const greetings = "hello world!"
-for (const greet of greetings) {
-    console.log(`each is char is ${greet}`);
+// const greetings = "hello world!"
+// for (const greet of greetings) {
+//     // console.log(`each is char is ${greet}`);
     
     
-}
+// }
 
+// Maps
 
+const map = new Map()
+map.set('IN' , 'India')    
+map.set('EN' , 'England')    
+map.set('CN' , 'China')    
 
+console.log(map);
