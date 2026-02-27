@@ -25,3 +25,20 @@ map.set('EN' , 'England')
 map.set('CN' , 'China')    
 
 console.log(map);
+
+for (const [key, value] of map) {
+    // console.log(key, "=>" , value);
+    
+    
+}
+
+const myObject = {
+    game1 : 'pubg',
+    game2 : 'spyderman'
+}
+
+for (const [key, value] of myObject) {
+    console.log(key, "=>" , value);
+
+    
+}
